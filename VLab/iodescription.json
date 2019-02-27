@@ -20,7 +20,7 @@
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
-      "target": "SDG_CALC/INPUT/Boundary2012_EL001L1_ATHINA.shp"
+      "target": "SDG_CALC/INPUT/INPUT_shp.zip"
  }
   ],
   "outputs": [
