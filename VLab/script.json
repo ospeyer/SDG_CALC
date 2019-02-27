@@ -9,6 +9,11 @@
       "repoPath": "SOURCE/shapefile_utils.ncl",
       "targetPath": "SDG_CALC/SOURCE/shapefile_utils.ncl",
       "pathType": "FILE"
+ },
+ {
+      "repoPath": "SOURCE/run.sh",
+      "targetPath": "SDG_CALC/SOURCE/run.sh",
+      "pathType": "FILE"
  }
   ]
 }

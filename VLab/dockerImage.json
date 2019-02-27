@@ -14,7 +14,7 @@
       "-c"
  ],
     "command": [
-      "./SDG_CALC/SOURCE/run.sh"
+      "./run.sh"
  ]
   }
 }
