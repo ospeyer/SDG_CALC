@@ -14,7 +14,7 @@
       "-c"
  ],
     "command": [
-      "cd /SDG_CALC/SOURCE && ncl CAMS_shapefile.ncl"
+      "cd /SDG_CALC/SOURCE && /opt/conda/envs/nclenv/bin/ncl  CAMS_shapefile.ncl"
  ]
   }
 }
