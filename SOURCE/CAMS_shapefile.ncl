@@ -45,7 +45,7 @@ ShPATH ="/work/pr001/eathana/orestis/KIT/KIT/COSMO-ART/COSMO_output/CAMS_SDG/"
 print(ShPATH)
 ;fils2= systemfunc("ls /work/pr001/eathana/orestis/KIT/KIT/COSMO-ART/COSMO_output/CAMS_SDG/Boundary2012_EL001L1_ATHINA.shp")
 ;fils2= systemfunc("ls " + ShPATH + "/" +FUA+"/"+ "*.shp") ;Add whatever shapefile you find in the folder
-fils2= systemfunc("ls SDG_CALC/INPUT/"+"*.shp") ;Add whatever shapefile you find in the folder
+fils2= systemfunc("ls ../SDG_CALC/INPUT/"+"*.shp") ;Add whatever shapefile you find in the folder
 f       = addfile(fils2, "r")
 shp_lon = tofloat( f->x )
 shp_lat = tofloat( f->y )
@@ -75,7 +75,7 @@ print ("Copernicus FUA shapefile link:https://land.copernicus.eu/local/urban-atl
 ;fils1= systemfunc("ls /work/pr001/eathana/orestis/KIT/KIT/COSMO-ART/COSMO_output/CAMS_SDG/ENSa.2016.PM25.avg.nc")
 ;fils1= systemfunc("ls /work/pr001/eathana/orestis/KIT/KIT/COSMO-ART/COSMO_output/CAMS_SDG/"+"ENSa."+YEAR+"*.nc")
 ;fils1= systemfunc("ls " + ShPATH +"ENSa."+YEAR+"*.nc")
-fils1= systemfunc("ls SDG_CALC/INPUT/" + "*.nc")
+fils1= systemfunc("ls ../SDG_CALC/INPUT/" + "*.nc")
 f1  = addfiles(fils1,"r")
 
 
