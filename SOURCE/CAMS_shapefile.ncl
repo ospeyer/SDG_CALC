@@ -45,7 +45,12 @@ ShPATH ="/work/pr001/eathana/orestis/KIT/KIT/COSMO-ART/COSMO_output/CAMS_SDG/"
 print(ShPATH)
 ;fils2= systemfunc("ls /work/pr001/eathana/orestis/KIT/KIT/COSMO-ART/COSMO_output/CAMS_SDG/Boundary2012_EL001L1_ATHINA.shp")
 ;fils2= systemfunc("ls " + ShPATH + "/" +FUA+"/"+ "*.shp") ;Add whatever shapefile you find in the folder
+fils4= systemfunc("pwd") ;Add whatever shapefile you find in the folder
+print (fils4)
+fils3= systemfunc("ls ../") ;Add whatever shapefile you find in the folder
+print (fils3)
 fils2= systemfunc("ls ../SDG_CALC/INPUT/"+"*.shp") ;Add whatever shapefile you find in the folder
+
 f       = addfile(fils2, "r")
 shp_lon = tofloat( f->x )
 shp_lat = tofloat( f->y )
