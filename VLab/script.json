@@ -1,0 +1,9 @@
+{
+  "scripts": [
+    {
+      "repoPath": "SDG_CALC/SOURCE/CAMS_shapefile.ncl",
+      "targetPath": "SDG_CALC/SOURCE/CAMS_shapefile.ncl",
+      "pathType": "FILE"
+ }
+  ]
+}

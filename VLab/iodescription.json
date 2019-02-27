@@ -1,0 +1,37 @@
+{
+  "inputs": [
+    {
+      "id": "DataObject_0h3a3ff",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "URL to download from CAMS",
+      "name": "ENSa.2016.PM25.avg.nc",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "SDG_CALC/INPUT/ENSa.2016.PM25.avg.nc"
+ },
+ {
+      "id": "shapefile",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "shapefile from CLMS",
+      "name": "Boundary2012_EL001L1_ATHINA.shp",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "SDG_CALC/INPUT/Boundary2012_EL001L1_ATHINA.shp"
+ }
+  ],
+  "outputs": [
+    {
+      "id": "Image_of_City",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "City_png",
+      "name": "City_png",
+      "valueSchema": "url",
+      "target": "SDG_CALC/OUTPUT/CAMS.SDG_ATHENS.2016.png"
+ }
+  ]
+}

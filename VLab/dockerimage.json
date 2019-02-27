@@ -1,0 +1,20 @@
+{
+
+  "image": "buckaroobanzai/sdg1162",
+
+  "privateimage": false,
+
+  "resources": {
+    "memory_mb": "5000",
+    "cpu_units": ""
+ },
+  "container": {
+    "entryPoint": [
+      "/bin/bash",
+      "-c"
+ ],
+    "command": [
+      "cd /SDG_CALC/SOURCE && ncl CAMS_shapefile.ncl"
+ ]
+  }
+}
