@@ -67,7 +67,7 @@ max_shp_lon = max(shp_lon)
 sname = fils2
 print(sname)
 print_shapefile_info(sname)
-plot_shapefile(sname)     ;To get a second image with the shapefile only
+;plot_shapefile(sname)     ;To get a second image with the shapefile only
 print ("Copernicus FUA shapefile link:https://land.copernicus.eu/local/urban-atlas/urban-atlas-2012")
 ;=================================================;
 ; open data file
