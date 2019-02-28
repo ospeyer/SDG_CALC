@@ -32,7 +32,7 @@
       "name": "City_png",
       "valueSchema": "url",
 	  "createFolder": true,
-      "target": "SDG_CALC/OUTPUT/CAMS.SDG_ATHENS.2016.png"
+      "target": "SDG_CALC/OUTPUT/CAMS.SDG.png"
  }
   ]
 }

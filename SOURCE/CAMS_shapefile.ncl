@@ -147,7 +147,8 @@ legend_value = decimalPlaces (legend_value ,2, True)
 ;===============================================;
 ; plot standard stuff
 ;===============================================;
-filename = "../OUTPUT/CAMS.SDG_"+FUA+"."+YEAR
+;filename = "../OUTPUT/CAMS.SDG_"+FUA+"."+YEAR
+filename = "../OUTPUT/CAMS.SDG"
 ;wks = gsn_open_wks("png","cams_contour")
 wks = gsn_open_wks("png",filename)
 
