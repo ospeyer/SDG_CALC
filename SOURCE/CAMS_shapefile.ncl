@@ -26,7 +26,7 @@ PS      = 1
 ;Material from https://www.ncl.ucar.edu/Applications/Scripts/shapefiles_9.ncl
 
 FUA ="ATHENS";FIRENZE, ATHENS, INSTANBUL, IZMIR
-YEAR ="2016";2014, 2015,2016,2017 (Interim) available
+YEAR ="2015";2014, 2015,2016,2017 (Interim) available
 
 if (FUA.eq."FIRENZE") then
 	POPULATION = 760000 ;http://www.oecd.org/cfe/regional-policy/Italy.pdf
