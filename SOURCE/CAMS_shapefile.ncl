@@ -42,7 +42,7 @@ end if
 end if
 
 ShPATH ="/work/pr001/eathana/orestis/KIT/KIT/COSMO-ART/COSMO_output/CAMS_SDG/"
-print(ShPATH)
+;print(ShPATH)
 ;fils2= systemfunc("ls /work/pr001/eathana/orestis/KIT/KIT/COSMO-ART/COSMO_output/CAMS_SDG/Boundary2012_EL001L1_ATHINA.shp")
 ;fils2= systemfunc("ls " + ShPATH + "/" +FUA+"/"+ "*.shp") ;Add whatever shapefile you find in the folder
 ;fils4= systemfunc("pwd") ;Add whatever shapefile you find in the folder
